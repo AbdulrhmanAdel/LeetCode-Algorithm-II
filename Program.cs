@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using AlgorithmII.Day01;
 using AlgorithmII.Day02;
+using AlgorithmII.Day03;
 
 namespace AlgorithmII
 {
@@ -10,8 +11,8 @@ namespace AlgorithmII
     {
         static void Main(string[] args)
         {
-            // FindPeakElementProblem.Run();
-            FindMinInRotatedArray.Run();
+            // RemoveDuplicatesFromSortedListII.Run();
+            ThreeSumProblem.Run();
         }
 
 
