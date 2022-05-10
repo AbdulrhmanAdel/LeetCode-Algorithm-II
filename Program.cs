@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using AlgorithmII.Day01;
+using AlgorithmII.Day02;
 
 namespace AlgorithmII
 {
@@ -9,9 +10,8 @@ namespace AlgorithmII
     {
         static void Main(string[] args)
         {
-            SearchInRotatedSortedArrayProblem.Run();
-            ;
-            // Search2DMatrix.Run();
+            // FindPeakElementProblem.Run();
+            FindMinInRotatedArray.Run();
         }
 
 

@@ -28,5 +28,10 @@
 
             return -1;
         }
+
+        public static bool IsRotatedArray(this  int[] nums)
+        {
+            return nums[0] > nums[^1];
+        }
     }
 }
