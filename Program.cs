@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using AlgorithmII.Day01;
 using AlgorithmII.Day02;
 using AlgorithmII.Day03;
+using AlgorithmII.Day04;
 
 namespace AlgorithmII
 {
@@ -11,8 +12,9 @@ namespace AlgorithmII
     {
         static void Main(string[] args)
         {
-            // RemoveDuplicatesFromSortedListII.Run();
-            ThreeSumProblem.Run();
+            // BackspaceStringCompare.Run();
+            IntervalListIntersections.Run();
+            // ContainerWithMostWater.Run();
         }
 
 
