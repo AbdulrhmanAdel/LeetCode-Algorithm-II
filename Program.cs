@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.InteropServices;
 using AlgorithmII.Day01;
 using AlgorithmII.Day02;
 using AlgorithmII.Day03;
 using AlgorithmII.Day04;
+using AlgorithmII.Day05;
 
 namespace AlgorithmII
 {
@@ -12,9 +14,11 @@ namespace AlgorithmII
     {
         static void Main(string[] args)
         {
-            // BackspaceStringCompare.Run();
-            IntervalListIntersections.Run();
-            // ContainerWithMostWater.Run();
+            
+            Console.WriteLine(new int[] {1,2,3,4}.SequenceEqual(new int[] {1,2,3,4}));
+            // FindAllAnagramsInAString.Run();
+            // SubarrayProductLessThanK.Run();
+            MinSubArraySum.Run();
         }
 
 
