@@ -7,6 +7,8 @@ using AlgorithmII.Day02;
 using AlgorithmII.Day03;
 using AlgorithmII.Day04;
 using AlgorithmII.Day05;
+using AlgorithmII.Day06;
+using AlgorithmII.Day07;
 
 namespace AlgorithmII
 {
@@ -15,10 +17,7 @@ namespace AlgorithmII
         static void Main(string[] args)
         {
             
-            Console.WriteLine(new int[] {1,2,3,4}.SequenceEqual(new int[] {1,2,3,4}));
-            // FindAllAnagramsInAString.Run();
-            // SubarrayProductLessThanK.Run();
-            MinSubArraySum.Run();
+            SubtreeOfAnotherTree.Run();
         }
 
 
